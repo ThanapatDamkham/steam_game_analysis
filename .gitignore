@@ -1,0 +1,16 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- ของที่ Scraper สร้าง / ของลับ ห้ามขึ้น Git เด็ดขาด ---
+config/steam_auth.json
+raw/
+*.log
+collector.log
+
+# --- PyCharm ---
+.idea/
