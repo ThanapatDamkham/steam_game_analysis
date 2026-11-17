@@ -20,7 +20,7 @@ AUTH_FILE: Path = ROOT / "config" / "steam_auth.json"
 
 DELAY_MIN: float = 0.8
 DELAY_MAX: float = 2.0
-WORKERS: int = 10
+WORKERS: int = 100
 file_lock: threading.Lock = threading.Lock()
 thread_local: threading.local = threading.local()
 

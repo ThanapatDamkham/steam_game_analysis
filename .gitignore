@@ -14,3 +14,4 @@ collector.log
 
 # --- PyCharm ---
 .idea/
+/issue/missing_price_id.txt
